@@ -2,6 +2,14 @@
 
 ## 1. module
 
+### Links
+
+- [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export/)
+
+- [import](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/import)
+
+
+
 ### ES5
 
 If you wants to exports only one variable / object

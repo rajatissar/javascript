@@ -7,4 +7,4 @@ const my_object = {
 // export default my_variable;
 export default my_object;
 
-export { my_variable, my_function };
+export { my_variable as my_var, my_function  };
