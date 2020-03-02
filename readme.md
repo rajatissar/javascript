@@ -8,8 +8,6 @@
 
 - [import](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/import)
 
-
-
 ### ES5
 
 If you wants to exports only one variable / object
@@ -61,3 +59,15 @@ export { my_variable, my_function };
 ```
 
 - We can use both `export default` and `export` at once in our file.
+
+## 2. deep_copy and shallow_copy
+
+### Links for deep_copy and shallow_copy
+
+- [Link 1](https://medium.com/free-code-camp/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd)
+
+### Methods
+
+- spread operator, Object.assign()n, JSON.parse(JSON.stringify()) do deep copy on array and object
+- spread operator, Object.assign() does not do deep copy of nested object but JSON.parse(JSON.stringify()) do deep copy of nested objects on object
+- spread operator, Object.assign(), JSON.parse(JSON.stringify()) do deep copy of nested array element on array
