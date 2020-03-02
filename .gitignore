@@ -1,6 +1,6 @@
 /node_modules
 /.vscode
-/Symbols
-/Promises
+/src/Symbols
+/src/Promises
 
 package-lock.json
