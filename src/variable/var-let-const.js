@@ -10,7 +10,7 @@ console.log(`var1 (redeclare): ${var1}`); // 200
 // const const1 = 202; // SyntaxError: Identifier 'const1' has already been declared
 
 // ============== function scope ============== 
-function fun1(){
+function fun1() {
     var var3 = 300; // function scoped variable
     console.log(`var3 (inside function): ${var3}`); // 300
 
@@ -55,22 +55,22 @@ console.log(`person: ${JSON.stringify(person)}`);
 // };
 
 // ============== closure ==============
-function fun2(){
+function fun2() {
     let a = 1;
-    return function(){
+    return function() {
         return ++a;
     }
 };
 
 const fun2_result = fun2();
-console.log('fun2_result', fun2_result);  // fun2_result [Function]
-console.log('fun2_result called',fun2_result(), fun2_result()); // fun2_result called 2 3
+console.log('fun2_result', fun2_result); // fun2_result [Function]
+console.log('fun2_result called', fun2_result(), fun2_result()); // fun2_result called 2 3
 
 // ============== Block Scope ==============
 
-for(var i=1;i<=5;i++){
-    console.log('var i',i);
-    setTimeout(()=>{
+for (var i = 1; i <= 5; i++) {
+    console.log('var i', i);
+    setTimeout(() => {
         console.log('var setTimeout', i);
     })
 }
@@ -86,10 +86,10 @@ for(var i=1;i<=5;i++){
 // var setTimeout 6
 // var setTimeout 6
 
-for(let i=1;i<=5;i++){
-    console.log('let i',i);
-    setTimeout(()=>{
-        console.log('let setTimeout',i);
+for (let i = 1; i <= 5; i++) {
+    console.log('let i', i);
+    setTimeout(() => {
+        console.log('let setTimeout', i);
     })
 }
 

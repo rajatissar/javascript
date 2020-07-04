@@ -4,11 +4,11 @@
 
 Three ways to declare variables in javascript
 
-|Feature|var|let|const|
-|---|---|---|
-|redeclare|Yes|No|No|
-|Update|Yes|Yes|No|
-|Scope|functional|Block|Block|
+| Feature   | var        | let   | const |
+|-----------|------------|-------|-------|
+| redeclare | Yes        | No    | No    |
+| Update    | Yes        | Yes   | No    |
+| Scope     | functional | Block | Block |
 
 ## 2. module
 
